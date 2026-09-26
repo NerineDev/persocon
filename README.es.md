@@ -1,68 +1,88 @@
-# Plataforma de gestión de citas y servicios
+# Persocon
 
-Repositorio público de documentación del **Proyecto Integrado** del ciclo de Desarrollo de Aplicaciones Web (DAW).
+**Plataforma de operaciones con clientes (ClientOps) para profesionales autónomos y pequeños negocios de servicios.**
 
-En este repositorio se almacenarán:
+Persocon reúne en una única plataforma la operativa relacionada con la prestación de servicios: clientes, citas, servicios, comunicación, pagos, facturación y gestión cotidiana del negocio.
 
-- Las entregas oficiales del módulo (E0, E1, E2, E3).
-- Diagramas y primeros bocetos de diseño.
-- Notas, decisiones y planificación del proyecto.
+El proyecto nació como una plataforma de gestión de citas para mi **Proyecto Integrado (PI)** del ciclo de *Desarrollo de Aplicaciones Web (DAW)*. El MVP académico continúa siendo la base funcional, pero Persocon evoluciona ahora más allá de aquel alcance inicial hacia un producto más amplio dirigido a profesionales independientes y pequeños negocios de servicios.
 
-> 🇬🇧 **English version**: see [`README.md`](README.md)
+> 🇬🇧 **English version:** [`README.md`](README.md)
 
 ---
 
-## Resumen del proyecto
+## Dirección del producto
 
-El proyecto consiste en una **plataforma web de gestión de citas y servicios** para profesionales autónomos y pequeñas empresas.
+Persocon se diseña alrededor del ciclo completo de un servicio, en lugar de considerar la reserva como el producto entero:
 
-Objetivos:
+**descubrimiento → reserva → pago → seguimiento → cita/prestación → facturación → relación con el cliente**
 
-- Sistema de reservas online para clientes.
-- Panel de control sencillo para profesionales (disponibilidad, servicios, calendario).
-- Pago online integrado (modo test durante el TFG).
+El objetivo es reducir el trabajo administrativo que rodea la prestación de servicios y mantener una experiencia comprensible para pequeños negocios que no necesitan la complejidad de un ERP completo.
 
-El **código fuente** de la aplicación estará en un **repositorio privado** para proteger la propiedad intelectual del proyecto.  
-Este repositorio público es exclusivamente para documentación y planificación.
+Las principales áreas del producto incluyen:
+
+- **Clientes** — fichas de cliente e historial operativo conectado.
+- **Calendario y citas** — disponibilidad, reservas y gestión del tiempo profesional.
+- **Servicios** — gestión y presentación pública de los servicios profesionales.
+- **Pagos y facturación** — estados de pago, facturas y flujos financieros relacionados.
+- **Mensajería** — comunicación entre clientes y profesionales con el contexto correspondiente.
+- **Operaciones del negocio** — paneles, recordatorios, automatización y apoyo administrativo cotidiano.
+- **Descubrimiento** — herramientas para ayudar a los clientes a encontrar profesionales y servicios adecuados.
+
+Persocon no pretende convertirse en un ERP generalista. Su foco es la capa operativa que rodea a los negocios de servicios basados en relaciones con clientes.
+
+---
+
+## Del proyecto académico al producto
+
+El Proyecto Integrado original estableció un MVP funcional con autenticación y roles, perfil profesional, servicios, disponibilidad, exploración pública, reservas, pagos, facturación, mensajería, soporte y frontend SPA.
+
+La etapa actual conserva esa base mientras evoluciona la arquitectura de información, la experiencia de usuario y el conjunto de funciones comerciales hacia una plataforma ClientOps ligera.
+
+El código fuente de la aplicación se mantiene por separado en un **repositorio privado**. Este repositorio público documenta la historia académica del proyecto y partes seleccionadas de su evolución posterior como producto.
 
 ---
 
 ## Estructura del repositorio
 
-```
-/entregas
-    PI_E0, PI_E1, PI_E2, PI_E3...
-
-/bocetos
-    Diagramas de arquitectura, casos de uso, wireframes, esquemas...
-
-/notas
-    Backlog, roadmap, changelog, decisiones y otros apuntes.
+```text
+/branding   Identidad actual de Persocon y recursos públicos de marca
+/bocetos    Diagramas de arquitectura, modelos UML/ER, mapas de navegación y bocetos
+/entregas   Entregas oficiales del Proyecto Integrado (PI_E0–PI_E4)
+/logos      Recursos históricos del logotipo de la etapa Sesvia
+/notas      Backlog, roadmap, decisiones de producto y notas de evolución
+/ui         Referencias históricas de interfaz de la fase académica/MVP
 ```
 
-### `/entregas`
+Algunas carpetas conservan intencionadamente el nombre **Sesvia**, la identidad anterior del proyecto, como parte de su historial de desarrollo.
 
-Carpeta con las entregas oficiales del módulo Proyecto Integrado:
+---
 
-- `PI_E0` – Elección inicial del proyecto. *(Entregada.)*
-- `PI_E1` – Especificación y análisis. *(Entregada.)*
-- `PI_E2` – Implementación y desarrollo. *(Entregada.)*
-- `PI_E3` – Despliegue, pruebas y memoria final. *(Entregada.)*
+## Estado actual
 
-### `/bocetos`
+Persocon se encuentra en una fase activa de **evolución post-PI**. El trabajo actual se centra en el rebranding, la arquitectura de producto, la modernización UX/UI y la preparación del MVP existente para una dirección ClientOps más amplia.
 
-Wireframes, diagramas de arquitectura, mapas de navegación y cualquier material visual usado durante la planificación.
+Por ello, la documentación pública combina:
 
-### `/notas`
+- material académico histórico,
+- la referencia del MVP funcional,
+- y documentos más recientes de planificación sobre la evolución de Persocon.
 
-Documentos de trabajo usados para organizar el desarrollo:
+Estos documentos son vivos y pueden cambiar a medida que evolucione el producto.
 
-- `backlog.md` – Funcionalidades y tareas pendientes.
-- `roadmap.md` – Fases del proyecto.
-- `changelog.md` – Registro de cambios.
-- `decisiones.md` – Decisiones técnicas y de diseño.
+---
 
-Estos archivos son documentos vivos y pueden cambiar a medida que avance el proyecto.
+## Marca
 
-# Licencia
-Este repositorio es propietario y todos los derechos están reservados. El código fuente no puede ser reutilizado, redistribuido, modificado ni utilizado para crear obras derivadas sin autorización previa y por escrito de la autora.
+Persocon es un producto de **LYNKORE**.
+
+El símbolo actual se está desarrollando alrededor de un motivo fluido de **P + conexión/señal**, conservando cierta herencia visual de LYNKORE pero con una identidad más suave y cercana, adecuada para software de uso cotidiano por pequeños negocios.
+
+El logotipo mostrado en el README principal es el prototipo actual y todavía puede seguir refinándose.
+
+---
+
+## Licencia
+
+Este repositorio es **propietario y todos los derechos están reservados**.
+
+Los materiales se publican con fines de documentación del proyecto y portfolio/referencia. No pueden reutilizarse, redistribuirse, modificarse ni utilizarse para crear obras derivadas sin autorización previa y por escrito de la autora.
